@@ -1,0 +1,385 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+body {
+    width: 960px;
+}
+
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+/*top-wrapperに関する処理　*/
+.top-wrapper {
+	background-image: url("../img/mainbg.png");
+	background-size: cover;
+	color: white;
+	font-weight: bold;
+	 opacity: 0.7;
+}
+
+.top-wrapper h1 {
+	font-size: 48px;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	color: white;
+	text-align: center;
+}
+
+.top-wrapper p {
+	font-size: 36px;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+/*headerに関する処理　*/
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	border: 2px solid #efefef;
+	}
+
+.header-logo {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}	
+
+.header-list {
+	width: 60%; 
+	line-height: 80px;
+}
+
+.header-list ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 21px;
+	line-height: 80px;
+}
+
+.header-list li {
+	padding: 10px;
+}
+
+
+/*about-wrapperに関する処理　*/
+.about-wrapper {
+	text-align: center;
+}
+
+.about {
+	font-size: 24px;
+	padding-top: 120px;
+	color: #ffd61a;
+}
+
+.about-text-1st {
+	padding: 24px
+}
+
+.about-text-2nd {
+	padding: 40px
+}
+
+.about-text-4th {
+	padding: 40px
+}
+
+.about-item img {
+	float: left;
+	padding-top: 80px;
+	padding-bottom: 64px;
+}
+
+
+
+/*course-wrapperに関する処理　*/
+.course-text {
+	text-align: center;
+	padding-bottom: 64px;
+}
+
+.course {
+	font-size: 24px;
+	padding-bottom: 20px;
+	color: #222222;
+}
+
+.course-box h3 {
+    font-size: 24px;
+	padding-bottom: 40px;
+	color: #222222;
+}
+
+.course-01box {
+	display: flex;
+}
+
+.course-02box {
+	display: flex;
+}
+
+.course-03box {
+	display: flex;
+}
+
+.course-01box:hover {
+	opacity: 0.7;
+}
+
+.course-02box:hover {
+	opacity: 0.7;
+}
+
+.course-03box:hover {
+	opacity: 0.7;
+}
+
+.course-01-text {
+	display: flex;
+	justify-content:center; 
+	flex-direction: column;
+	width: 50%;
+	padding: 48px;
+	background-color: lightgrey;
+}
+
+.course-01-picture {
+	width: 50%;
+}
+
+.course-02-text {
+	display: flex;
+	justify-content:center;  
+	flex-direction: column;
+	width: 50%;
+	padding: 48px;
+	background-color: lightgrey;
+}
+
+.course-02-picture {
+	width: 50%;
+}
+
+.course-03-text {
+	display: flex;
+	justify-content:center; 
+	flex-direction: column;
+	width: 50%;
+	padding: 48px;
+	background-color: lightgrey;
+}
+
+.course-03-picture {
+	width: 50%;
+}
+
+/*news-wrapperに関する処理　*/
+.news-wrapper {
+	display: flex;
+	justify-content:center; 
+	align-items: center; 
+	flex-direction: column;
+}
+
+.news {
+	font-size: 24px;
+	padding-top: 64px;
+	color: #ffd61a;
+}
+
+.ニュース {
+	padding-bottom: 20px;
+}
+
+.news-item {
+	display: flex;
+	justify-content:center; 
+	}
+
+.news-item1:hover {
+	opacity: 0.7;
+}
+
+.news-item2:hover {
+	opacity: 0.7;
+}
+
+.news-item3:hover {
+	opacity: 0.7;
+}
+
+.news-item1 {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 30%;
+	margin: 32px 0px;
+	}
+
+.news-item2 {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 30%;
+	margin: 32px;
+	}
+
+.news-item3 {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 30%;
+	margin: 32px 0px;
+	}
+
+.date1 {
+	padding-top: 32px;
+	padding-bottom: 24px;
+}
+
+.date2 {
+	padding-top: 32px;
+	padding-bottom: 24px;
+}
+
+.date3 {
+	padding-top: 32px;
+	padding-bottom: 24px;
+}
+
+ 
+
+.btn {
+	opacity: 0.7;
+}
+
+
+.btn:hover {
+	opacity: 1;
+}
+
+/*access-wrapperに関する処理　*/
+.access-wrapper {
+	background-color: #fafafa; 
+	}
+
+.access-title {
+	text-align: center;
+}
+
+.access {
+	font-size: 24px;
+	padding-top: 64px;
+}
+
+.会社情報 {
+	padding-bottom: 64px;
+}
+
+.information-box {
+display:flex; justify-content:center; align-items: center; flex-direction: column;
+padding-bottom: 68px;
+}
+
+.information-box tr {
+	padding: 24px;
+}
+
+.td-text {
+	padding-left: 48px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+/*contant-wrapperに関する処理　*/
+.contact-text {
+	text-align: center;
+	}
+
+.contact {
+	font-size: 24px;
+	padding-top: 64px;
+}
+
+.説明会 {
+	padding-bottom: 20px;
+}
+
+.contact-text-1st {
+	padding: 32px;
+}
+
+.contact-text-2nd {
+	padding-bottom: 80px;
+}
+
+.contact-form {
+display:flex; justify-content:center; align-items: center; flex-direction: column;
+}
+
+.td-form {
+	padding-left: 120px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+/*footerに関する処理　*/
+footer {
+	height: 82px;
+	color: white;
+	background-color: #707070;
+	text-align: center;
+	font-size: 18px;
+	line-height: 82px;	
+}
+
+/* ページTOPに戻る */
+.pagetop{
+    display: none;
+    right: 15px;
+    bottom: 60px;
+}
+.pagetop a{
+    display: block;
+    font-size: 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background: #707070;
+    line-height: 50px;
+}
+.pagetop a i{
+    font-size: 20px;
+    color:#fff;
+    line-height: 50px;
+}
+
